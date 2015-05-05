@@ -1,0 +1,310 @@
+html, body, nav, section, img, ul {
+	margin: 0 auto;
+	padding: 0;
+	font-family: "Helvetica", sans-serif;
+}
+
+.content {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+/*NAV*/
+
+nav {
+	padding-bottom: 30px;
+}
+
+.title {
+	float: left;
+}
+
+.title>li{
+	list-style-type: none;
+	float: left;
+	padding-top: 55px;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 30px;
+	color: #999999;
+} 
+
+#nav-links-list {
+	float: right;
+	margin-top: 0;
+}
+
+#nav-links-list>li{
+	list-style-type: none;
+	float: left;
+	padding-left: 68px;
+	padding-top: 65px;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 20px;
+	color: #999999;
+}	
+
+#nav-links-list>li>a{
+	text-decoration: none;
+	color: #808080;
+}
+
+/*MAIN HEADER*/
+
+
+/*SECTION ONE*/
+
+#section-1 {
+	background-color: #ff6666;
+	height: 600px;
+}
+
+#info-grid {
+	padding-top: 50px;
+	padding-bottom: 0;
+}
+
+.info-text {
+	float: left;
+	width: 235px;
+	padding-left: 75px;
+	text-align: center;
+	padding-bottom: 60px;	
+}
+
+/*SECTION TWO*/
+
+.section-two{
+	padding-top: 60px;
+}
+
+#left-side-text {
+	max-width: 230px;
+	height: 600px;
+	float: left;
+}
+
+#left-side-big {
+	font-family: "Josefin Sans", sans-serif;
+	font-weight: 700;
+	font-size: 38px;
+	padding-bottom: 20px;
+
+}
+
+#left-side-medium {
+	font-family: "Josefin Sans", sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	color: #c2c2c2;
+	padding-bottom: 20px;
+}
+
+#left-side-small {
+	font-family: "Josefin Sans", sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+	padding-bottom: 12px;
+}
+
+#left-side-text>button {
+	width: 100px;
+	height: 40px;
+	background-color: #ff6666;
+	border: none;
+	color: #ffffff;
+	font-size: 16px;
+	margin-top: 35px;
+	
+}
+
+#image-grid{
+	width: 770px;
+	float: left;
+}
+
+.image-grid {
+	float: left;
+	width: 230px;
+	padding-left: 20px;
+	list-style-type: none;
+}
+
+#thumb-img1 {
+	background-image: url("../images/shuttle.png");
+	width: 230px;
+	height: 280px;
+	background-position: ;
+	background-repeat: none;
+	background-position: center center;
+}
+
+#thumb-img2 {
+	background-image: url("../images/stars.png");
+	width: 230px;
+	height: 280px;
+	background-position: ;
+	background-repeat: none;
+	background-position: center center;
+}
+
+#thumb-img3 {
+	background-image: url("../images/launch.png");
+	width: 230px;
+	height: 280px;
+	background-position: top center;
+	background-repeat: none;
+}
+
+#thumb-img4 {
+	background-image: url("../images/station.png");
+	width: 230px;
+	height: 280px;
+	background-position: center center;
+	background-repeat: none;
+}
+
+#thumb-img5 {
+	background-image: url("../images/iss.png");
+	width: 230px;
+	height: 280px;
+	background-position: center center;
+	background-repeat: none;
+}
+
+#thumb-img6 {
+	background-image: url("../images/moonwalk.png");
+	width: 230px;
+	height: 280px;
+	background-position: ;
+	background-repeat: none;
+}
+
+#caption{
+	padding-top: 20px;
+}
+#caption-title {
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	padding-bottom: 10px;
+}
+
+#caption>p {
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	margin: 0;
+	padding-bottom: 40px;
+}
+
+/*SECTION THREE*/
+
+.section-three{
+	background-color: #333333;
+}
+
+.logo-group{
+	padding-top: 80px;
+	padding-bottom:145px;
+}
+
+.logo-group>li {
+	float: left;
+	list-style-type: none;
+	color: #e1e1e1;
+	width: 230px;
+	text-align: center;
+	padding-left: 20px;
+
+}
+
+.logo-group>li:first-child{
+	padding-left: 0px;
+}
+
+#logo1 {
+	font-family: "Josefin Sans", sans-serif; 
+	font-weight: 700;
+	font-size: 48px;
+}
+
+#logo2 {
+	font-family: "Anton", sans-serif;  
+	font-weight: 700;
+	font-size: 48px;
+}
+
+#logo3 {
+	font-family: "Jura", sans-serif; 
+	font-weight: 700;
+	font-size: 48px;
+}
+
+#logo4 {
+	font-family: "Quicksand", sans-serif; 
+	font-weight: 700;
+	font-size: 48px;
+}
+
+/*SECTION FOUR*/
+
+#section-four{
+	background-color:#ffff66;
+}
+.question>ul{
+	text-align: center;
+	max-width: 490px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.question>ul>li{
+	list-style-type: none;
+	color: #575757;
+}
+
+#middle-big {
+	font-family: "Josefin Sans", sans-serif;
+	font-weight: 300;
+	font-size: 48px;
+	padding-bottom: 20px;
+}
+
+#middle-small{
+	font-family: "Josefin Sans", sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	padding-bottom: 40px;
+
+}
+
+.question>ul>button{
+	width:160px;
+	height: 50px;
+	background-color: #333333;
+	color: #ffffff;
+	border: none;
+	font-size: 18px;	
+}
+
+/*FOOTER*/
+.info>ul{
+	color: #cecece;
+	font-weight: 300;
+	list-style-type: none;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#left-footer {
+	float: left;
+}
+
+#right-footer {
+	float:right;
+}
+
+/*CLEARFIX*/
+.clearfix {
+	overflow: auto;
+}
